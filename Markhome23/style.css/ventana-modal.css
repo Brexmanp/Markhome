@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*Còdigos universales de la pàgina*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;;
+}
+/*Còdigo opcional - Fondo de la pàgina*/
+body{
+	 background: url("https://travelandleisure.mx/wp-content/uploads/2018/10/marc-antoine-depelteau-268520-unsplash.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;;
+}
+/*---*/
+body, .modal_4{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal_4{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.modal_4 h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: green;
+}
+
+.modal_4 h3{
+	font-size: 2.5vw;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+}
+#btn-modal_4:checked ~ .modal_4{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor_4{
+	height: 100%;
+	margin: 100px;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal_4:checked ~ .modal_4 .contenedor_4{
+	transform: translateY(0%);
+} 
+.contenedor_4 header{
+	padding: 10px;
+	background: #db8046;
+	color: #fff;
+}
+.contenedor_4 label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido_4{
+	width: 100%;
+	padding: 10px; 
+}
+.contenido_4 h3{
+	margin-bottom: 10px;
+}
+.contenido_4 p{
+	margin-bottom: 7px;
+}
+#btn-modal_4{
+	display: none;
+}
+.lbl-modal_4{
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor_4{
+		width: 95%;
+	}
+}
+
+/*modal_1*/
+body, .modal_1{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal_1{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-modal_1:checked ~ .modal_1{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor_1{
+	width: 420px;
+	height: 100%;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal_1:checked ~ .modal_1 .contenedor_1{
+	transform: translateY(0%);
+} 
+.contenedor_1 header{
+	padding: 10px;
+	background: #db8046;
+	color: #fff;
+}
+.contenedor_1 label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido_1{
+	width: 100%;
+	padding: 10px; 
+}
+.contenido_1 h3{
+	margin-bottom: 10px;
+}
+.contenido_1 p{
+	margin-bottom: 7px;
+}
+#btn-modal_1{
+	display: none;
+}
+.lbl-modal_1{
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor_1{
+		width: 95%;
+	}
+}
+
+/*Modal_2*/
+
+body, .modal_2{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal_2{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-modal_2:checked ~ .modal_2{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor_2{
+	width: 420px;
+	height: 100%;
+	margin: auto;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal_2:checked ~ .modal_2 .contenedor_2{
+	transform: translateY(0%);
+} 
+.contenedor_2 header{
+	padding: 10px;
+	background: #db8046;
+	color: #fff;
+}
+.contenedor_2 label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #f80e0e;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido_2{
+	width: 100%;
+	padding: 10px; 
+}
+.contenido_2 h3{
+	margin-bottom: 10px;
+}
+.contenido_2 p{
+	margin-bottom: 7px;
+}
+#btn-modal_2{
+	display: none;
+}
+.lbl-modal_2{
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor_2{
+		width: 95%;
+	}
+}
+
+/*Modal_3*/
+
+body, .modal_3{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal_3{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+}
+#btn-modal_3:checked ~ .modal_3{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor_3{
+	width: 420px;
+	height: 100%;
+	margin: auto;
+	background: #fff;
+	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+	transition: all 500ms ease;
+	position: relative;
+	transform: translateY(-30%);
+}
+#btn-modal_3:checked ~ .modal_3 .contenedor_3{
+	transform: translateY(0%);
+} 
+.contenedor_3 header{
+	padding: 10px;
+	background: #db8046;
+	color: #fff;
+}
+.contenedor_3 label{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+.contenido_3{
+	width: 100%;
+	padding: 10px; 
+}
+.contenido_3 h3{
+	margin-bottom: 10px;
+}
+.contenido_3 p{
+	margin-bottom: 7px;
+}
+#btn-modal_3{
+	display: none;
+}
+.lbl-modal_3{
+	background: #fff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.contenedor_3{
+		width: 95%;
+	}
+}
+
+
+

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+/* Estilos específicos para diferentes tamaños de pantalla */
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    /* Agrega aquí los estilos específicos para dispositivos móviles */
+}
+/* Estilos para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Agrega aquí los estilos específicos para tablets */
+}
+/* Estilos para pantallas de escritorio */
+@media only screen and (min-width: 1025px) {
+    /* Agrega aquí los estilos específicos para pantallas de escritorio */
+}
+
+  *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    background: rgb(233, 233, 233);
+  }
+
+  .product {
+    display: inline-block;
+    width: 30%; /* Ajusta el ancho según tu preferencia */
+    margin: 10px;
+    vertical-align: top; /* Alinea los elementos en la parte superior */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+  nav {
+      background-color: #333;
+  }
+  
+  nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  nav ul li {
+      padding: 10px;
+  }
+  
+  nav ul li a {
+      color: #0e4599;
+      text-decoration: none;
+      transition: color 0.3s;
+      padding: 15px;
+      margin: 5PX;
+  }
+  
+  nav ul li a:hover {
+      color: #d0890e; 
+  }
+  
+  /* Animación */
+  nav ul li a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background-color: #2ab60e;
+      transition: width 0.3s; 
+  }
+  
+  nav ul li a:hover::after {
+      width: 5%;
+  }
+  .container{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+  }
+  nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    height: 100%;
+    background: #fff;
+  }
+  .navbar{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  div img{
+      width: 70px;
+  }
+  
+  ul{
+    margin: 0 auto;
+  }
+  li{
+    padding-bottom: 2rem;
+  }
+  li a{
+    font-size: 16px;
+    color: rgb(85, 83, 83);
+  }
+  
+  nav i{
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .logout{
+    position: absolute;
+    bottom: 20px;
+  }
+ 
+  h1{
+    margin: 10px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+
+  
+  
+ 
